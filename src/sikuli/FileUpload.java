@@ -11,7 +11,7 @@ public class FileUpload {
   @Test
   public void ploadingafile() {
 	  driver.get("https://www.w3schools.com/howto/howto_html_file_upload_button.asp");
-	  driver.findElement(By.xpath("//input[@id='myFile']")).sendKeys("C:\\Users\\CSC\\Pictures\\Screenshots\\Screenshot (1).PNG");
+	  driver.findElement(By.xpath("//input[@id='myFile']")).sendKeys("C:\\Users\\CSC\\Pictures\\Screenshots\\Screenshot.PNG");
   }
   @BeforeTest
   public void beforeTest() {
